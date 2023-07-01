@@ -1,0 +1,16 @@
+query Locations {
+  locations {
+    info {
+      count
+      next
+      pages
+      prev
+    }
+    results {
+      id
+      name
+      type
+      dimension
+    }
+  }
+}
